@@ -6,6 +6,18 @@
         "type": "point",
         "size": 100
     },
+    "encoding":
+    {
+        "x":{
+            "field":"precip"
+            "type":"quantative"
+        }
+        "y":
+        {
+            "field":"city",
+            "type":"nominal"
+        }
+    },
     "width": 400,
     "height": 150
 }
